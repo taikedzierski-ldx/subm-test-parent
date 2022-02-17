@@ -5,6 +5,6 @@ result="$(bash child/test_branch.sh)"
 echo "Got '$result'"
 
 res=0
-[[ "$result" = "Before" ]] || res=$?
+[[ "$result" = "After" ]] || res=$?
 echo $res
 exit $res
